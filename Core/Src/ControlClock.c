@@ -8,6 +8,9 @@
 #include "main.h"
 #include "ControlClock.h"
 
+const char* a = "LED_";
+const char* b = "_Pin";
+
 void clearAllClock()
 {
 	HAL_Init();
